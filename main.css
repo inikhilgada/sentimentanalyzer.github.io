@@ -2,18 +2,14 @@ body {
   height: 100vh;
   margin: 0;
   text-align: center;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    201deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: url('image.jpg');
+  background-size: cover;
+    	background-repeat: no-repeat;
   font-family: Montserrat;
 }
 
 #hindi {
-  color: orange;
+  color: rgb(255, 251, 0);
   font-size: 4rem;
   font-weight: 700;
 }
@@ -28,21 +24,22 @@ h1 {
 #txt {
   margin-top: 0em;
   border-radius: 10px;
-  background: rgb(255, 255, 255);
   outline: none;
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: bolder;
   padding: 1rem;
   box-shadow: 5px 10px 8px #000000;
 }
 #pp {
   margin-top: 0em;
+  opacity: 0.5;
 }
 
 textarea::placeholder {
   border: 1px solid rgba(136, 136, 136, 0);
   color: black;
   caret-color: blue;
-  font-size: 1.7rem;
+  font-weight: bolder;
 }
 
 #scoreB,
